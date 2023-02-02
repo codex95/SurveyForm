@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time filling the survey</p>
+<form id="survey-form">
+  <p><label id="name-label">Name</label></p>
+  <input id="name" type="text" placeholder="Enter your name" required>
+  <p><label id="email-label">Email</label></p>
+  <input id="email" type="email" placeholder="Enter your email" required>
+  <p><label id="number-label">Age</label></p>
+  <input id="number" type="number" min="1" max="100" placeholder="Age" required>
+  <p>Which role you usually plays in Dota 2?</p>
+  <select name="role" id="dropdown">
+    <option value="">Please choose your role</option>
+    <option value="Hard Carry">Hard Carry [1]</option>
+    <option value="Midlaner">Midlaner [2]</option>
+    <option value="Offlaner">Offlaner [3]</option>
+    <option value="Support">Support [4]</option>
+    <option value="Hard Support">Hard Support [5]</option>
+  </select>
+  <p>Are you toxic?</p>
+  <input id="babyrage" type="radio" name="toxic" value="babyrage" checked>  Babyrage
+  <br>
+  <input id="sometimes" type="radio" name="toxic" value="babyrage"> Sometimes
+  <br>
+  <input id="PMA" type="radio" name="toxic" value="PMA"> PMA
+  <p>What would you like to see in next Dota 2 updates? (Check all that apply)</p>
+  <input id="heroes" type="checkbox" name="update" value="heroes"> New heroes
+  <br>
+  <input id="nerf" type="checkbox" name="update" value="nerf"> Nerf CM
+  <br>
+  <input id="armor" type="checkbox" name="update" value="armor"> +1 armor literally no damage
+  <p>Any comment why you still have not delete Dota 2?</p>
+  <textarea id="comment" name="comment" placeholder="Whyyyyy???"></textarea>
+  <br>
+  <p><input id="submit" type="submit"></p>
+</form>
+</html>
