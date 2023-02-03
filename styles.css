@@ -1,0 +1,54 @@
+/*Use inline class to make label stays on top of input*/
+.inline{
+    display: block;
+  }
+  
+  body{
+    font-family: Poppins;
+    background-image: url("https://images2.alphacoders.com/474/thumb-1920-474206.jpg");
+    color: white;
+  }
+  
+  h1{
+    text-align: center;
+    padding: 1px auto;
+    margin: 1px auto;
+  }
+  
+  h6{
+    padding: 1px auto;
+    margin: 1px auto;
+  }
+  
+  p{
+    font-style: italic;
+    text-align: center;
+  }
+  
+  div{
+    padding: 4px 0;
+  }
+  
+  label{
+    font-size: 1.2em;
+    padding: 5px auto;
+    margin: 5px auto;
+  }
+  
+  /*class to make input width wider without changing input for checkbox and radio*/
+  .inputwidth{
+    width: 33em;
+  }
+  
+  form{
+    background-color: rgba(27, 27, 50, 0.7);/*Low opacity to make background img visible a bit behind the form*/
+    margin: 1em 35em;/*large right & left margin to make survey form's background looks centralise*/
+    padding: 3em;
+    max-width: 100%;
+    max-height: auto;
+  }
+  
+  textarea{
+    height: 10em;
+  }
+  
