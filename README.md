@@ -1,5 +1,6 @@
 # SurveyForm
 
+<<<<<<< HEAD
 Projects from freeCodeCamp to build a survey form
 
 Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
@@ -25,3 +26,6 @@ Inside the form element, you are presented with a button with id of submit to su
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
 Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+=======
+Projects from freeCodeCamp to create a survey form
+>>>>>>> 6df3db2ba5b9e6a0d87a6ef6d03eb88ff567a1a8
